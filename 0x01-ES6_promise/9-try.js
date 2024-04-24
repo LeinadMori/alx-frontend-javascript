@@ -11,8 +11,3 @@ function guardrail(mathFunction) {
   
     return queue;
   }
-  const exampleMathFunction = () => 1000;
-  console.log(guardrail(exampleMathFunction));
-  
-  const errorMathFunction = () => { throw new Error('Error occurred'); };
-  console.log(guardrail(errorMathFunction));  
